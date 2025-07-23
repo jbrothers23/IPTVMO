@@ -22,7 +22,7 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
 
 {'name':'GMA2',
 'type':'youtube',
-'embedUrl':_0x4a4268(0x31e),
+'embedUrl':https://www.youtube.com/watch?v=mzGcnrXG2Jo,
 'logo':_0x4a4268(0x30e),
 'category':_0x4a4268(0x2f8)},
 
@@ -232,11 +232,7 @@ categories[_0x1adc49(0x258)](_0x336895=>{const _0x205817=_0x1adc49,_0xe8bd8c=doc
 
 'CCTV4','https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_kbsworld.mpd',
 
-'https://i.imgur.com/BMCnoRn.png','Kix','onclick',
-
-'https://www.youtube.com/embed/live_stream?channel=UCKL5hAuzgFQsyrsQKgU0Qng',
-
-'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd','ABC\x20Australia',
+'https://i.imgur.com/BMCnoRn.png','Kix','onclick','https://www.youtube.com/embed/live_stream?channel=UCKL5hAuzgFQsyrsQKgU0Qng','https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd','ABC\x20Australia',
 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_tapedge.mpd',
 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd',
 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd',
