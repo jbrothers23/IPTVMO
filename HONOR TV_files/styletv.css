@@ -1,7 +1,7 @@
 body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(skyblue,skyblue , skyblue , skyblue , skyblue , skyblue);
+      background: linear-gradient(yellow,red , orange , green , violet , maroon);
       color: #000000 saw;
       display: flex;
       flex-direction: column;
