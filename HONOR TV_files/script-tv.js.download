@@ -3,7 +3,7 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
 
      {
         name: 'TV5',
-        logo: _0x4a4268(0x240),
+        logo: 'https://i.imgur.com/Ddyfzrn.png',
         type: 'mpegdash',
         manifestUri: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd',
         clearKey: { '2615129ef2c846a9bbd43a641c7303ef': '07c7f996b1734ea288641a68e1cfdc4d' },
@@ -17,14 +17,15 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
         clearKey: { 'f703e4c8ec9041eeb5028ab4248fa094': 'c22f2162e176eee6273a5d0b68d19530' },
         category: "Local"
       },
+      {
+        name: 'GMA Pinoy TV',
+        logo: 'https://i.imgur.com/Eo0f51v.png',
+        type: 'mpegdash',
+        manifestUri: 'https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd',
+        clearKey: { 'c95ed4c44b0b4f7fa1c6ebbbbaab21a1': '47635b8e885e19f2ccbdff078c207058' },
+        category: "Local"
+      },
 
-
-{'name':_0x4a4268(0x1d4),
-'logo':_0x4a4268(0x22c),
-'type':'mpegdash',
-'manifestUri':_0x4a4268(0x211),
-'clearKey':{'f703e4c8ec9041eeb5028ab4248fa094':'c22f2162e176eee6273a5d0b68d19530'},
-'category':'Local'},
 
 {'name':'GMA',
 'type':'youtube',
@@ -41,6 +42,15 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
 {'name':'GMA\x20Pinoy\x20TV',
 'logo':_0x4a4268(0x1ee),
 'type':'mpegdash',
+
+     {
+        name: 'TFC',
+        logo: 'https://i.imgur.com/zZWj5vn.png',
+        type: 'mpegdash',
+        manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnono/7045bc3c-9492-42d4-974e-a3b217776e57/index.mpd',
+        clearKey: { '9568cc84e1d944f38eac304517eab6fd': 'f12142af8f39b3bab79d3679d3665ebe' },
+        category: "Local"
+      },
 
 
 'manifestUri':'https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd',
