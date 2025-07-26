@@ -380,14 +380,7 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
         clearKey: { 'e1bde543e8a140b38d3f84ace746553e': 'b712c4ec307300043333a6899a402c10' },
         category: "Movies"
       },
-      {
-        name: 'RPTV',
-        logo: 'https://i.imgur.com/GjQEEvq.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd',
-        clearKey: { '1917f4caf2364e6d9b1507326a85ead6': 'a1340a251a5aa63a9b0ea5d9d7f67595' },
-        category: "Local"
-      },
+
 {
         name: 'MPTV',
         logo: 'https://i.imgur.com/BMCnoRn.png',
@@ -700,20 +693,7 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
         clearKey: { 'ef7d9dcfb99b406cb79fb9f675cba426': 'b24094f6ca136af25600e44df5987af4' },
         category: "News"
       },
-{
-name: 'COLORS TV',
-        manifestUri: 'https://tv.jomarhost.xyz/80bf754f-d8ff-4936-8409-451a921f95be.m3u8',
-        type: 'hls',
-		logo: 'https://i.imgur.com/C7a9W27.png',
-	        category: "Local"
-	      },
-  {
-        name: 'HallyPop',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/GMA_Hallypop_logo.png',
-        type: 'hls',
-        manifestUri: 'https://jungotvstream.chanall.tv/jungotv/hallypop/stream.m3u8',
-        category: "Local"
-      },
+
 {
         name: 'PILIPINAS LIVE 1',
         logo: 'https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png',
