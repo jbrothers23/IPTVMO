@@ -173,10 +173,15 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
         clearKey: { 'd8520e96a1283ab6e5be538474bfa810': 'bda5f7bbc1e44096f779a0619fe9881f' },
         category: "Kids"
       },
+	{
+        name: 'Nick Jr',
+        logo: 'https://i.imgur.com/nliH2PY.png',
+        type: 'mpegdash',
+        manifestUri: 'https://linearjitp-playback.astro.com.my/dash-wv/linear/9982/default_primary.mpd',
+        clearKey: { 'fa65220c9f76e424173899df533a6d10': 'b4abbee95b69b3e80a0d141272c870db' },
+        category: "Kids"
+      },
 
-
-{'name':_0x4a4268(0x22b),'logo':_0x4a4268(0x2b6),'type':'mpegdash','manifestUri':_0x4a4268(0x285),
-'clearKey':{'fa65220c9f76e424173899df533a6d10':'b4abbee95b69b3e80a0d141272c870db'},'category':_0x4a4268(0x268)},
 
 {'name':_0x4a4268(0x24b),'logo':_0x4a4268(0x24a),'type':_0x4a4268(0x1d7),'manifestUri':_0x4a4268(0x300),
 'clearKey':{'d47ebabf7a21430b83a8c4b82d9ef6b1':_0x4a4268(0x2af)},'category':_0x4a4268(0x2e0)},
