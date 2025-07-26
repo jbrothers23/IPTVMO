@@ -75,24 +75,28 @@ body {
       border-radius: 4px;
     }
 
-    .arrow-button {
-      background: 0;
-      color: red;
-      border: none;
-      padding: 12px;
-      cursor: pointer;
-      z-index: 10;
-      font-size: 24px;
-      border-radius: 50%;
-       box-shadow: 10px 10px 10px red;
-          
-       margin: 4px 2px;
-        cursor: pointer;
-       
 
-          
-          
+    .arrow-button {
+      flex: 0 0 auto;
+      width: 80px;
+      background: #8b8b8c;
+      border-radius: 8px;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 90px;
     }
+
+    .arrow-button:hover {
+      transform: scale(1.05);
+    }
+
+
 
     .arrow-left {
       margin-right: 10px;
