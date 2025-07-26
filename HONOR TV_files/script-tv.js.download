@@ -72,6 +72,21 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
         clearKey: { 'd273c085f2ab4a248e7bfc375229007d': '7932354c3a84f7fc1b80efa6bcea0615' },
         category: "Local"
       },
+      {
+        name: 'RPTV',
+        logo: 'https://i.imgur.com/GjQEEvq.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd',
+        clearKey: { '1917f4caf2364e6d9b1507326a85ead6': 'a1340a251a5aa63a9b0ea5d9d7f67595' },
+        category: "Local"
+      },
+     {
+          name: 'COLORS TV',
+          manifestUri: 'https://tv.jomarhost.xyz/80bf754f-d8ff-4936-8409-451a921f95be.m3u8',
+          type: 'hls',
+          logo: 'https://i.imgur.com/C7a9W27.png',
+          category: "Local"
+	},
 
 
 
