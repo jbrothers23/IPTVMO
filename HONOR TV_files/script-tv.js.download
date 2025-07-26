@@ -18,7 +18,7 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
         category: "Local"
       },
       {
-        name: 'GMA Pinoy TV',
+        name: 'GMA Pinoy TV23',
         logo: 'https://i.imgur.com/Eo0f51v.png',
         type: 'mpegdash',
         manifestUri: 'https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd',
