@@ -1,4 +1,4 @@
-body {
+obody {
       margin: 0;
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(gray,gray , gray ,gray , gray , gray);
@@ -125,7 +125,7 @@ body {
     .channel-name {
       font-size: 12px;
       font-weight: bold;
-      color: #8a0303;
+      color: #fffcfc;
       text-align: center;
       white-space: nowrap;
       overflow: hidden;
