@@ -210,5 +210,5 @@ body {
 }
 
 .nav-item:hover i {
-  transform: scale(1.4); /* Enlarge the icon */
+  transform: scale(5.4); /* Enlarge the icon */
 }
