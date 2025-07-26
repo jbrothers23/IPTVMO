@@ -71,13 +71,13 @@ obody {
     }
 
     .channel-slider::-webkit-scrollbar-thumb {
-      background: #3003fc;
+      background: #fc0303;
       border-radius: 4px;
     }
 
     .arrow-button {
       background: 0;
-      color: blue;
+      color: red;
       border: none;
       padding: 15px;
       cursor: pointer;
