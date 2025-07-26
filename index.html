@@ -382,5 +382,261 @@ document.write( unescape( '%3C%21%44%4F%43%54%59%50%45%20%68%74%6D%6C%3E%0A%3C%6
     <div id="footer">
       ENJOY WATCHING CABLE TV BY MG TV
     </div>
+
+
+	};
+	const loadingOverlay = document.createElement('div');
+	loadingOverlay.id = 'loading-overlay';
+	loadingOverlay.style.position = 'absolute';
+	loadingOverlay.style.top = '0';
+	loadingOverlay.style.left = '0';
+	loadingOverlay.style.width = '100%';
+	loadingOverlay.style.height = '100%';
+	loadingOverlay.style.backgroundColor = 'rgba(43, 51, 63, 0.7)';
+	loadingOverlay.style.display = 'flex';
+	loadingOverlay.style.justifyContent = 'center';
+	loadingOverlay.style.alignItems = 'center';
+	loadingOverlay.innerHTML = `<div class="circular-progress"><div class="circle"><div class="mask full"><div class="fill"></div></div><div class="mask half"><div class="fill"></div><div class="fill fix"></div></div></div><div class="inside-circle">0%</div></div>`;
+	uiContainer.appendChild(loadingOverlay);
+	const progressBarStyle = document.createElement('style');
+	progressBarStyle.innerHTML = ``;
+	document.head.appendChild(progressBarStyle);
+	video.controls = false;
+	const player = new gowatch.Player(video);
+	video.addEventListener('pause', function() {
+		video.play()
+	});
+	player.addEventListener('buffering', function(event) {
+		if (event.buffering) {
+			loadingOverlay.style.display = 'flex';
+			startProgress()
+		} else {
+			loadingOverlay.style.display = 'none';
+			stopProgress()
+		}
+	});
+	player.addEventListener('error', onErrorEvent);
+	let progressInterval;
+	let progress = 0;
+
+	function startProgress() {
+		const progressBar = document.querySelector('.circular-progress .circle');
+		const progressText = document.querySelector('.circular-progress .inside-circle');
+		progressInterval = setInterval(() => {
+			if (progress < 100) {
+				progress += 1;
+				const degree = (progress / 100) * 360;
+				if (progress <= 50) {
+					progressBar.querySelector('.mask.full').style.transform = `rotate(${degree}deg)`
+				} else {
+					progressBar.querySelector('.mask.full').style.transform = 'rotate(180deg)';
+					progressBar.querySelector('.mask.half .fill').style.transform = `rotate(${degree-180}deg)`
+				}
+				progressText.innerText = `${progress}%`
+			} else {
+				clearInterval(progressInterval)
+			}
+		}, 50)
+	}
+
+	function stopProgress() {
+		clearInterval(progressInterval);
+		progress = 0;
+		const progressBar = document.querySelector('.circular-progress .circle');
+		const progressText = document.querySelector('.circular-progress .inside-circle');
+		progressBar.querySelector('.mask.full').style.transform = 'rotate(0deg)';
+		progressBar.querySelector('.mask.half .fill').style.transform = 'rotate(0deg)';
+		progressText.innerText = '0%'
+	}
+	async function loadStream(stream) {
+		let drmConfig = {
+			servers: {},
+			advanced: {
+				'com.widevine.alpha': {
+					videoRobustness: "SW_SECURE_CRYPTO",
+					audioRobustness: "SW_SECURE_CRYPTO",
+				}
+			}
+		};
+		if (stream.licenseserver) {
+			drmConfig.servers['com.widevine.alpha'] = stream.licenseserver
+		}
+		if (stream.licensekey) {
+			const [licensekeyId, licensekeyValue] = stream.licensekey.split(':');
+			drmConfig.drmkeys = {
+				[licensekeyId]: licensekeyValue,
+			}
+		}
+		player.configure({
+			streaming: {
+				abr: {
+					enabled: false
+				}
+			},
+			drm: drmConfig
+		});
+		if (stream.manifestUri.endsWith('.mpd')) {
+			player.getNetworkingEngine().clearAllRequestFilters();
+			player.getNetworkingEngine().registerRequestFilter((type, request) => {
+				if (type === gowatch.net.NetworkingEngine.RequestType.SEGMENT) {
+					const bandwidth = stream.bandwidth;
+					request.allowCrossSiteCredentials = false;
+					request.uris = request.uris.map(uri => uri + `?bandwidth=${bandwidth}`)
+				}
+			})
+		} else {
+			player.getNetworkingEngine().clearAllRequestFilters()
+		}
+		try {
+			await player.load(stream.manifestUri)
+		} catch (error) {
+			onError(error)
+		}
+	}
+	async function preloadStream(stream) {}
+
+	function preloadAllStreams() {
+		for (const licensekey in streams) {
+			if (streams.hasOwnProperty(licensekey)) {
+				preloadStream(streams[licensekey])
+			}
+		}
+	}
+
+	function populateChannelList() {
+		channelsList.innerHTML = '';
+		for (const licensekey in streams) {
+			if (streams.hasOwnProperty(licensekey)) {
+				const stream = streams[licensekey];
+				const listItem = document.createElement('li');
+				listItem.textContent = stream.name;
+				listItem.addEventListener('click', () => loadStream(stream));
+				channelsList.appendChild(listItem)
+			}
+		}
+	}
+
+	function onErrorEvent(event) {
+		onError(event.detail)
+	}
+
+	function onError(error) {}
+	searchBar.addEventListener('input', function(event) {
+		const query = event.target.value.toLowerCase();
+		channelsList.innerHTML = '';
+		for (const licensekey in streams) {
+			if (streams.hasOwnProperty(licensekey) && streams[licensekey].name.toLowerCase().includes(query)) {
+				const stream = streams[licensekey];
+				const listItem = document.createElement('li');
+				listItem.textContent = stream.name;
+				listItem.addEventListener('click', () => loadStream(stream));
+				channelsList.appendChild(listItem)
+			}
+		}
+	});
+	preloadAllStreams();
+	populateChannelList();
+	loadStream(streams.tv5hd);
+	const resolutionButton = document.createElement('button');
+	resolutionButton.innerHTML = '<i class="fa fa-cog" style="color:yellow;"></i>';
+	resolutionButton.style.position = 'absolute';
+	resolutionButton.style.bottom = '40px';
+	resolutionButton.style.right = '40px';
+	resolutionButton.style.zIndex = '1001';
+	resolutionButton.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+	resolutionButton.style.border = 'none';
+	resolutionButton.style.fontSize = '24px';
+	resolutionButton.style.cursor = 'pointer';
+	uiContainer.appendChild(resolutionButton);
+	const resolutionMenu = document.createElement('div');
+	resolutionMenu.style.position = 'absolute';
+	resolutionMenu.style.bottom = '40px';
+	resolutionMenu.style.right = '20px';
+	resolutionMenu.style.backgroundColor = 'rgba(43, 51, 63, 0.7)';
+	resolutionMenu.style.color = '#fff';
+	resolutionMenu.style.border = 'none';
+	resolutionMenu.style.display = 'none';
+	resolutionMenu.style.zIndex = '1001';
+	uiContainer.appendChild(resolutionMenu);
+	let timeoutId;
+
+	function closeResolutionMenu() {
+		resolutionMenu.style.display = 'none';
+		resolutionButton.style.display = 'block';
+		clearTimeout(timeoutId)
+	}
+	resolutionButton.addEventListener('click', () => {
+		if (resolutionMenu.style.display === 'none') {
+			resolutionMenu.style.display = 'block';
+			resolutionButton.style.display = 'none';
+			timeoutId = setTimeout(closeResolutionMenu, 5000)
+		} else {
+			closeResolutionMenu()
+		}
+	});
+
+	function updateResolutions() {
+		const tracks = player.getVariantTracks();
+		const uniqueHeights = [...new Set(tracks.map(track => track.height))];
+		const currentTrack = player.getVariantTracks().find(track => track.active);
+		resolutionMenu.innerHTML = '';
+		uniqueHeights.forEach(height => {
+			const resOption = document.createElement('div');
+			resOption.style.display = 'flex';
+			resOption.style.alignItems = 'center';
+			resOption.style.padding = '5px';
+			resOption.style.cursor = 'pointer';
+			const resText = document.createElement('span');
+			resText.innerText = `${height}p`;
+			const checkIcon = document.createElement('i');
+			checkIcon.className = 'fa fa-check';
+			checkIcon.style.marginLeft = '10px';
+			checkIcon.style.visibility = currentTrack && currentTrack.height === height ? 'visible' : 'hidden';
+			resOption.appendChild(resText);
+			resOption.appendChild(checkIcon);
+			resOption.addEventListener('click', () => {
+				changeResolution(height);
+				closeResolutionMenu()
+			});
+			resolutionMenu.appendChild(resOption)
+		});
+		const autoOption = document.createElement('div');
+		autoOption.style.display = 'flex';
+		autoOption.style.alignItems = 'center';
+		autoOption.style.padding = '5px';
+		autoOption.style.cursor = 'pointer';
+		const autoText = document.createElement('span');
+		autoText.innerText = 'Auto';
+		const checkIconAuto = document.createElement('i');
+		checkIconAuto.className = 'fa fa-check';
+		checkIconAuto.style.marginLeft = '10px';
+		checkIconAuto.style.visibility = currentTrack && !currentTrack.height ? 'visible' : 'hidden';
+		autoOption.appendChild(autoText);
+		autoOption.appendChild(checkIconAuto);
+		autoOption.addEventListener('click', () => {
+			changeResolution('Auto');
+			closeResolutionMenu()
+		});
+		resolutionMenu.appendChild(autoOption)
+	}
+
+	function changeResolution(res) {
+		const tracks = player.getVariantTracks();
+		let selectedTrack = tracks[0];
+		if (res !== 'Auto') {
+			selectedTrack = tracks.find(track => track.height === res) || selectedTrack
+		}
+		player.selectVariantTrack(selectedTrack, true);
+		player.configure({
+			abr: {
+				enabled: res === 'Auto'
+			}
+		});
+		updateResolutions()
+	}
+	player.addEventListener('trackschanged', updateResolutions);
+	updateResolutions()
+});
+
     
 </body></html>
