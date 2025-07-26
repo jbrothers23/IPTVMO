@@ -39,10 +39,6 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
 'logo':_0x4a4268(0x22c),
 'category':_0x4a4268(0x2f8)},
 
-{'name':'GMA\x20Pinoy\x20TV',
-'logo':_0x4a4268(0x1ee),
-'type':'mpegdash',
-
      {
         name: 'TFC',
         logo: 'https://i.imgur.com/zZWj5vn.png',
@@ -51,6 +47,13 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
         clearKey: { '9568cc84e1d944f38eac304517eab6fd': 'f12142af8f39b3bab79d3679d3665ebe' },
         category: "Local"
       },
+
+
+{'name':'GMA\x20Pinoy\x20TV',
+'logo':_0x4a4268(0x1ee),
+'type':'mpegdash',
+
+
 
 
 'manifestUri':'https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd',
