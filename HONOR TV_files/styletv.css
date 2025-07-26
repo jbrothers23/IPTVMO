@@ -75,21 +75,32 @@ body {
       border-radius: 4px;
     }
 
+   /* .arrow-button {
+      background: 0;
+      color: blue;
+      border: none;
+      padding: 15px;
+      cursor: pointer;
+      z-index: 10;
+      font-size: 24px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }  */
+
 
     .arrow-button {
       flex: 0 0 auto;
-      width: 20px;
       background: #8b8b8c;
-      border-radius: 1px;
+      border-radius: 50px;
       text-align: center;
-      padding: 1px;
+      padding: 15px;
+      z-index: 10;
       cursor: pointer;
       transition: transform 0.2s;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-      height: 20px;
     }
 
     .arrow-button:hover {
