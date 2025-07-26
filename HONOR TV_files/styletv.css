@@ -125,7 +125,7 @@ obody {
     .channel-name {
       font-size: 13px;
       font-weight: bold;
-      color: #fffcfc;
+      color: #000000;
       text-align: center;
       white-space: nowrap;
       overflow: hidden;
