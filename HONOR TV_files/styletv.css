@@ -1,7 +1,7 @@
 body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(blue, green , red , green ,  green , green);
+      background: linear-gradient(Vivid cyan, green , red , green ,  green , green);
       color: #a314a1 saw;
       display: flex;
       flex-direction: column;
