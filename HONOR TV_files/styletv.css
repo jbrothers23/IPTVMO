@@ -1,8 +1,8 @@
 obody {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(lime green, green , red ,lime green , lime green , lime green);
-      color: #14a392 saw;
+      background: linear-gradient(black, green , red ,lime green , lime green , lime green);
+      color: #a314a1 saw;
       display: flex;
       flex-direction: column;
       align-items: center;
