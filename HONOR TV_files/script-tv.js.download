@@ -1,11 +1,5 @@
 const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_0x2fc1ac=_0x26c6c8();while(!![]){try{const _0x17245c=parseInt(_0x41fd0f(0x210))/0x1+parseInt(_0x41fd0f(0x24d))/0x2*(-parseInt(_0x41fd0f(0x298))/0x3)+-parseInt(_0x41fd0f(0x2e5))/0x4*(-parseInt(_0x41fd0f(0x214))/0x5)+parseInt(_0x41fd0f(0x328))/0x6*(-parseInt(_0x41fd0f(0x2b0))/0x7)+-parseInt(_0x41fd0f(0x324))/0x8*(-parseInt(_0x41fd0f(0x255))/0x9)+parseInt(_0x41fd0f(0x2fe))/0xa*(parseInt(_0x41fd0f(0x290))/0xb)+parseInt(_0x41fd0f(0x30c))/0xc*(-parseInt(_0x41fd0f(0x314))/0xd);if(_0x17245c===_0x479d06)break;else _0x2fc1ac['push'](_0x2fc1ac['shift']());}catch(_0x10f142){_0x2fc1ac['push'](_0x2fc1ac['shift']());}}}(_0x4a09,0x82a4f));function _0x568c(_0x207aa6,_0x2175f7){const _0x4a094e=_0x4a09();return _0x568c=function(_0x568c7f,_0x535053){_0x568c7f=_0x568c7f-0x1d2;let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f7);}const streams=[
 
-{'name':'TV5',
-'logo':_0x4a4268(0x240),
-'type':_0x4a4268(0x1d7),
-'manifestUri':_0x4a4268(0x22e),
-'clearKey':{'2615129ef2c846a9bbd43a641c7303ef':'07c7f996b1734ea288641a68e1cfdc4d'},
-'category':'Local'},
 
      {
         name: 'TV5',
@@ -15,7 +9,14 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
         clearKey: { '2615129ef2c846a9bbd43a641c7303ef': '07c7f996b1734ea288641a68e1cfdc4d' },
         category: "Local"
       },
-
+     {
+        name: 'A2Z',
+        logo: 'https://i.imgur.com/43nZ2rv.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd',
+        clearKey: { 'f703e4c8ec9041eeb5028ab4248fa094': 'c22f2162e176eee6273a5d0b68d19530' },
+        category: "Local"
+      },
 
 
 {'name':_0x4a4268(0x1d4),
