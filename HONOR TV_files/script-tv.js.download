@@ -22,16 +22,15 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
         logo: 'https://i.imgur.com/Eo0f51v.png',
         type: 'mpegdash',
         manifestUri: 'https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd',
-        clearKey: { 'c95ed4c44b0b4f7fa1c6ebbbbaab21a1': '47635b8e885e19f2ccbdff078c207058' },
+        clearKey: { 'c95ed4c44b0b4f7fa1c6ebbbbaab21a1':'47635b8e885e19f2ccbdff078c207058':':_0x4a4268(0x30b)},
         category: "Local"
       },
-
-
-{'name':'GMA',
-'type':'youtube',
-'embedUrl':'https://www.youtube.com/embed/live_stream?channel=UCKL5hAuzgFQsyrsQKgU0Qng',
-'logo':_0x4a4268(0x30e),
-'category':'Local'},
+     {
+     'name':'GMA',
+     'type':'youtube',
+     'embedUrl':'https://www.youtube.com/embed/live_stream?channel=UCKL5hAuzgFQsyrsQKgU0Qng',
+     'logo':_0x4a4268(0x30e),
+     'category':'Local'},
 
 {'name':'GMA1',
 'type':'youtube',
