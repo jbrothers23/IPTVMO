@@ -83,7 +83,7 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
      {
           name: 'SOONTOOPEN',
 	  logo: 'https://i.imgur.com/GjQEEvq.png',
-          manifestUri: 'https://tv.jomarhost.xyz/80bf754f-d8ff-4936-8409-451a921f95be.m3u8',
+          manifestUri: 'http://tvnijuan.net:38081/live/tvnijuan/tvnijuan/40.m3u8',
           type: 'hls',
           category: "Local"
 	},
