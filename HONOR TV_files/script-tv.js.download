@@ -24,7 +24,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 }const streams=[
 
 
-
+//Local
 
      {
         name: 'TV5',
@@ -113,49 +113,51 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Local"
       },
 
-//sdasdasdasdasd
+//Movies
 
 	{
         name: 'HBO',
         logo: 'https://i.imgur.com/fHBIgs6.png',
         type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.mpd',
         clearKey: { 'd47ebabf7a21430b83a8c4b82d9ef6b1': '54c213b2b5f885f1e0290ee4131d425b' },
         category: "Movies"
-      },
+    },
+
 	{
         name: 'HBO Family',
         logo: 'https://i.imgur.com/WANpEkc.png',
         type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbofam/default/index.mpd',
         clearKey: { '872910c843294319800d85f9a0940607': 'f79fd895b79c590708cf5e8b5c6263be' },
         category: "Movies"
-      },
-      {
+    },
+
+    {
         name: 'HBO Signature',
         logo: 'https://i.imgur.com/Q2ki7HC.png',
         type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbosign/default/index.mpd',
         clearKey: { 'a06ca6c275744151895762e0346380f5': '559da1b63eec77b5a942018f14d3f56f' },
         category: "Movies"
-      },
-      {
+    },
+    {
         name: 'HBO Hits',
         logo: 'https://i.imgur.com/iCnfJS0.png',
         type: 'mpegdash',
         manifestUri: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd',
         clearKey: { 'b04ae8017b5b4601a5a0c9060f6d5b7d': 'a8795f3bdb8a4778b7e888ee484cc7a1' },
         category: "Movies"
-      },
+    },
 
-{
+	{
         name: 'Cinemax',
         logo: 'https://i.imgur.com/r8qzNiy.png',
         type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_cinemax/default/index.mpd',
         clearKey: { 'b207c44332844523a3a3b0469e5652d7': 'fe71aea346db08f8c6fbf0592209f955' },
         category: "Movies"
-      },
+    },
 
 
 
