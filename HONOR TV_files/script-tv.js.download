@@ -31,9 +31,15 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         logo: 'https://i.imgur.com/Ddyfzrn.png',
         type: 'mpegdash',
         manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd',
-        clearKey: { '2615129ef2c846a9bbd43a641c7303ef': '07c7f996b1734ea288641a68e1cfdc4d' },
+        clearKey: {"2615129ef2c846a9bbd43a641c7303ef":"07c7f996b1734ea288641a68e1cfdc4d"},
         category: "Local"
       },
+
+
+
+
+
+
      {
         name: 'A2Z',
         logo: 'https://i.imgur.com/43nZ2rv.png',
