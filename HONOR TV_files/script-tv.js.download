@@ -34,8 +34,9 @@ const _0x4a4268=_0x568c;(function(_0x26c6c8,_0x479d06){const _0x41fd0f=_0x568c,_
 },
 
 {'name':'SOON2OPEN',
-'type':'youtube',
-'embedUrl':'http://tvnijuan.net:38081/live/tvnijuan/tvnijuan/40.m3u8',
+'type':'mpegdash',
+'embedUrl':'https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_ott.mpd',
+clearKey: { '7ef7e913ce85a1131b27036069169a10':'77d98ed71db7524c27875a09a975f9e6' },
 'logo':_0x4a4268(0x22c),
 'category':_0x4a4268(0x2f8)},
 
