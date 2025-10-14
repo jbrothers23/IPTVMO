@@ -27,30 +27,30 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
      {
-        name: ' TV5 ',
-        logo: ' https://i.imgur.com/Ddyfzrn.png ',
+        name: 'TV5',
+        logo: 'https://i.imgur.com/Ddyfzrn.png',
         type: 'mpegdash',
-        manifestUri: ' https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd ',
-        clearKey: { 'f703e4c8ec9041eeb5028ab4248fa094 ':' 07c7f996b1734ea288641a68e1cfdc4d '},
-        category: " Local "
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd',
+        clearKey: {'f703e4c8ec9041eeb5028ab4248fa094':'07c7f996b1734ea288641a68e1cfdc4d'},
+        category: "Local"
       },
 
      {
-        name: ' A2Z ',
-        logo: ' https://i.imgur.com/43nZ2rv.png ',
-        type: ' mpegdash ',
-        manifestUri: ' https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_a2z/default/index.mpd ',
-        clearKey: { ' f703e4c8ec9041eeb5028ab4248fa094 ':' c22f2162e176eee6273a5d0b68d19530 ' },
-        category: " Local "
+        name: 'A2Z',
+        logo: 'https://i.imgur.com/43nZ2rv.png',
+        type: 'mpegdash ',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_a2z/default/index.mpd',
+        clearKey: {'f703e4c8ec9041eeb5028ab4248fa094':'c22f2162e176eee6273a5d0b68d19530'},
+        category: "Local"
       },
 
      {
-        name: ' TFC ',
-        logo: ' https://i.imgur.com/zZWj5vn.png ',
-        type: ' mpegdash ',
-        manifestUri: ' https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnono/7045bc3c-9492-42d4-974e-a3b217776e57/index.mpd ',
-        clearKey: { ' 9568cc84e1d944f38eac304517eab6fd ':' f12142af8f39b3bab79d3679d3665ebe ' },
-        category: " Local "
+        name: 'TFC',
+        logo: 'https://i.imgur.com/zZWj5vn.png',
+        type: 'mpegdash',
+        manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnono/7045bc3c-9492-42d4-974e-a3b217776e57/index.mpd',
+        clearKey: { '9568cc84e1d944f38eac304517eab6fd':'f12142af8f39b3bab79d3679d3665ebe'},
+        category: "Local"
       },
 
 
