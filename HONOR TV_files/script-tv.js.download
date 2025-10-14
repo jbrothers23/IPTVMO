@@ -50,6 +50,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { 'c95ed4c44b0b4f7fa1c6ebbbbaab21a1':'47635b8e885e19f2ccbdff078c207058' },
         category: "Local"
       },
+
      {
      'name':'GMA',
      'type':'youtube',
@@ -57,6 +58,11 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      'logo':_0x4a4268(0x30e),
      'category':'Local'
 },
+
+
+
+
+
 
 {'name':'SOON2OPEN',
 'type':'mpegdash',
@@ -75,13 +81,17 @@ clearKey: { '7ef7e913ce85a1131b27036069169a10':'77d98ed71db7524c27875a09a975f9e6
         category: "Local"
       },
      {
-        name: 'PBO',
-        logo: 'https://i.imgur.com/buOVATz.png',
-        type: 'mpegdash',
+        name: 'IQIYI',
+        logo: 'https://i.pinimg.com/originals/28/43/e5/2843e5c36e847576f1e86e80f43e5384.jpg',
+        type: 'mpd',
         manifestUri: 'https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_ott.mpd',
-        clearKey: { '7ef7e913ce85a1131b27036069169a10': '77d98ed71db7524c27875a09a975f9e6' },
+       clearKey:{"7ef7e913ce85a1131b27036069169a10":"77d98ed71db7524c27875a09a975f9e6"},
         category: "Movies"
       },
+
+
+
+
      {
         name: 'Sari-Sari',
         logo: 'https://i.imgur.com/MXxN1UO.png',
