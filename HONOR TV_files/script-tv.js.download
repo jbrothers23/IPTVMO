@@ -86,24 +86,43 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      'category':'Local'
 	},
 
-
-
-{'name':'SOON2OPEN',
-'type':'mpegdash',
-'manifestUri':'https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_ott.mpd',
-clearKey: { '7ef7e913ce85a1131b27036069169a10':'77d98ed71db7524c27875a09a975f9e6' },
-'logo':_0x4a4268(0x22c),
-'category':_0x4a4268(0x2f8)},
-
-
      {
-        name: 'TFC',
-        logo: 'https://i.imgur.com/zZWj5vn.png',
+        name: 'Sari-Sari',
+        logo: 'https://i.imgur.com/MXxN1UO.png',
         type: 'mpegdash',
-        manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnono/7045bc3c-9492-42d4-974e-a3b217776e57/index.mpd',
-        clearKey: { '9568cc84e1d944f38eac304517eab6fd': 'f12142af8f39b3bab79d3679d3665ebe' },
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_sarisari/default/index.mpd',
+        clearKey: { '0a7ab3612f434335aa6e895016d8cd2d': 'b21654621230ae21714a5cab52daeb9d' },
         category: "Local"
       },
+
+     {
+        name: 'Buko Channel',
+        logo: 'https://i.imgur.com/Wv0K5Yc.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_buko_sd/default/index.mpd',
+        clearKey: { 'd273c085f2ab4a248e7bfc375229007d': '7932354c3a84f7fc1b80efa6bcea0615' },
+        category: "Local"
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
      {
         name: 'IQIYI',
         logo: 'https://i.pinimg.com/originals/28/43/e5/2843e5c36e847576f1e86e80f43e5384.jpg',
@@ -116,14 +135,7 @@ clearKey: { '7ef7e913ce85a1131b27036069169a10':'77d98ed71db7524c27875a09a975f9e6
 
 
 
-     {
-        name: 'Sari-Sari',
-        logo: 'https://i.imgur.com/MXxN1UO.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd',
-        clearKey: { '0a7ab3612f434335aa6e895016d8cd2d': 'b21654621230ae21714a5cab52daeb9d' },
-        category: "Local"
-      },
+
      {
         name: 'Buko Channel',
         logo: 'https://i.imgur.com/Wv0K5Yc.png',
