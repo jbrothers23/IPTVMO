@@ -168,13 +168,51 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
     },
 
-      {
+    {
         name: 'Viva Cinema',
         logo: 'https://i.imgur.com/51RWtvd.png',
         type: 'mpegdash',
         manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd',
         clearKey: { '4503cf86bca3494ab95a77ed913619a0': '3afc9c8f627fb3fb255dee8e3b0fe1d71' },
         category: "Movies"
+    },
+
+    {
+        name: 'Cinemo',
+        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSAX3s9pZ_vF-BYCNl2YauNfH__T2bzKq1Q&s',
+        type: 'mpegdash',
+        manifestUri: 'https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd',
+        clearKey: { 'aa8aebe35ccc4541b7ce6292efcb1bfb': 'aab1df109d22fc5d7e3ec121ddf24e5f' },
+        category: "Movies"
+    },
+
+
+
+
+
+//News
+
+	{
+        name: 'ANC',
+        logo: 'https://i.imgur.com/Bcu69bU.png',
+        type: 'mpegdash',
+        manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-anc-global-dash-abscbnono/index.mpd',
+        clearKey: { '4bbdc78024a54662854b412d01fafa16': '6039ec9b213aca913821677a28bd78ae' },
+        category: "News"
+    },
+
+
+
+//Kids
+
+
+	{
+        name: 'Cartoon Network',
+        logo: 'https://i.imgur.com/9PLlajp.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cartoonnetworkhd/default/index.mpd',
+        clearKey: { 'a2d1f552ff9541558b3296b5a932136b': 'cdd48fa884dc0c3a3f85aeebca13d444' },
+        category: "Kids"
       },
 
 
@@ -182,7 +220,12 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
 
-//News
+
+
+
+
+
+
 
 
 
@@ -204,22 +247,8 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
 
-      {
-        name: 'Viva Cinema',
-        logo: 'https://i.imgur.com/51RWtvd.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd',
-        clearKey: { '07aa813bf2c147748046edd930f7736e': '3bd6688b8b44e96201e753224adfc8fb' },
-        category: "Movies"
-      },
-        {
-        name: 'Cinemo',
-        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSAX3s9pZ_vF-BYCNl2YauNfH__T2bzKq1Q&s',
-        type: 'mpegdash',
-        manifestUri: 'https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd',
-        clearKey: { 'aa8aebe35ccc4541b7ce6292efcb1bfb': 'aab1df109d22fc5d7e3ec121ddf24e5f' },
-        category: "Movies"
-      },
+
+
 
 
 
@@ -228,14 +257,6 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 {'name':_0x4a4268(0x2bc),'logo':_0x4a4268(0x261),'type':_0x4a4268(0x1da),'manifestUri':_0x4a4268(0x209),'category':_0x4a4268(0x2e0)},
 
-	{
-        name: 'ANC',
-        logo: 'https://i.imgur.com/Bcu69bU.png',
-        type: 'mpegdash',
-        manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-anc-global-dash-abscbnono/index.mpd',
-        clearKey: { '4bbdc78024a54662854b412d01fafa16': '6039ec9b213aca913821677a28bd78ae' },
-        category: "News"
-      },
 
 {'name':_0x4a4268(0x28d),'logo':_0x4a4268(0x291),'type':_0x4a4268(0x1d7),'manifestUri':_0x4a4268(0x26b),'clearKey':{'2e53f8d8a5e94bca8f9a1e16ce67df33':_0x4a4268(0x208)},
 'category':_0x4a4268(0x2e0)},
