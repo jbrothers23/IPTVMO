@@ -53,20 +53,8 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Local"
       },
 
-
-
-
-
-
-
-
-
-
-
-
-
       {
-        name: 'GMA Pinoy TV23',
+        name: 'GMA Pinoy TV',
         logo: 'https://i.imgur.com/Eo0f51v.png',
         type: 'mpegdash',
         manifestUri: 'https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd',
@@ -74,23 +62,21 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Local"
       },
 
-
-
      {
      'name':'GMA',
      'type':'youtube',
      'embedUrl':'https://www.youtube.com/embed/live_stream?channel=UCKL5hAuzgFQsyrsQKgU0Qng',
      'logo':_0x4a4268(0x30e),
      'category':'Local'
-},
+	},
 
      {
      'name':'Kapamilya Online',
      'type':'youtube',
      'embedUrl':'https://www.youtube.com/embed/live_stream?channel=UCstEtN0pgOmCf02EdXsGChw',
-     'logo':_0x4a4268(0x30e),
+     'logo': 'https://th.bing.com/th/id/OIP.WJ42CLSN52F8__yoFceMOwHaEK?rs=1&pid=ImgDetMain',
      'category':'Local'
-},
+	},
 
      {
      'name':'DZRH TV',
@@ -98,7 +84,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      'embedUrl':'https://www.youtube.com/embed/live_stream?channel=UCcTiBX8js_djhSSlmJRI99A',
      'logo': 'https://th.bing.com/th/id/OIP.LA48bslLAx_sTgviWD-EKQAAAA?rs=1&pid=ImgDetMain',
      'category':'Local'
-},
+	},
 
 
 
