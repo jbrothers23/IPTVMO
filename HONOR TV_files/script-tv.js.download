@@ -197,29 +197,6 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
 
-
-
-     {
-          name: 'SOONTOOPEN',
-	  	logo: 'https://i.imgur.com/GjQEEvq.png',
-          manifestUri: 'http://tvnijuan.net:38081/live/tvnijuan/tvnijuan/40.m3u8',
-          type: 'hls',
-          category: "Local"
-	},
-	{
-        name: 'HallyPopTRY',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/GMA_Hallypop_logo.png',
-        type: 'hls',
-        manifestUri: 'http://tvnijuan.net:38081/live/tvnijuan/tvnijuan/40.m3u8',
-        category: "Local"
-      	},
-	{
-        name: 'HallyPop',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/GMA_Hallypop_logo.png',
-        type: 'hls',
-        manifestUri: 'https://jungotvstream.chanall.tv/jungotv/hallypop/stream.m3u8',
-        category: "Local"
-      	},
       {
         name: 'Viva Cinema',
         logo: 'https://i.imgur.com/51RWtvd.png',
