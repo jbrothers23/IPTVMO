@@ -168,14 +168,21 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
     },
 
+      {
+        name: 'Viva Cinema',
+        logo: 'https://i.imgur.com/51RWtvd.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd',
+        clearKey: { '4503cf86bca3494ab95a77ed913619a0': '3afc9c8f627fb3fb255dee8e3b0fe1d71' },
+        category: "Movies"
+      },
 
 
 
 
 
 
-
-
+//News
 
 
 
