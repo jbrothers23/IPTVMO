@@ -113,9 +113,49 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Local"
       },
 
+//sdasdasdasdasd
 
+	{
+        name: 'HBO',
+        logo: 'https://i.imgur.com/fHBIgs6.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd',
+        clearKey: { 'd47ebabf7a21430b83a8c4b82d9ef6b1': '54c213b2b5f885f1e0290ee4131d425b' },
+        category: "Movies"
+      },
+	{
+        name: 'HBO Family',
+        logo: 'https://i.imgur.com/WANpEkc.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd',
+        clearKey: { '872910c843294319800d85f9a0940607': 'f79fd895b79c590708cf5e8b5c6263be' },
+        category: "Movies"
+      },
+      {
+        name: 'HBO Signature',
+        logo: 'https://i.imgur.com/Q2ki7HC.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd',
+        clearKey: { 'a06ca6c275744151895762e0346380f5': '559da1b63eec77b5a942018f14d3f56f' },
+        category: "Movies"
+      },
+      {
+        name: 'HBO Hits',
+        logo: 'https://i.imgur.com/iCnfJS0.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd',
+        clearKey: { 'b04ae8017b5b4601a5a0c9060f6d5b7d': 'a8795f3bdb8a4778b7e888ee484cc7a1' },
+        category: "Movies"
+      },
 
-
+{
+        name: 'Cinemax',
+        logo: 'https://i.imgur.com/r8qzNiy.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd',
+        clearKey: { 'b207c44332844523a3a3b0469e5652d7': 'fe71aea346db08f8c6fbf0592209f955' },
+        category: "Movies"
+      },
 
 
 
@@ -142,14 +182,12 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
 
-      {
-        name: 'RPTV',
-        logo: 'https://i.imgur.com/GjQEEvq.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd',
-        clearKey: { '1917f4caf2364e6d9b1507326a85ead6': 'a1340a251a5aa63a9b0ea5d9d7f67595' },
-        category: "Local"
-      },
+
+
+
+
+
+
      {
           name: 'SOONTOOPEN',
 	  	logo: 'https://i.imgur.com/GjQEEvq.png',
@@ -162,8 +200,6 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/GMA_Hallypop_logo.png',
         type: 'hls',
         manifestUri: 'http://tvnijuan.net:38081/live/tvnijuan/tvnijuan/40.m3u8',
-
-
         category: "Local"
       	},
 	{
@@ -261,47 +297,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { 'bab5c11178b646749fbae87962bf5113': '0ac679aad3b9d619ac39ad634ec76bc8' },
         category: "Kids"
       },
-	{
-        name: 'HBO',
-        logo: 'https://i.imgur.com/fHBIgs6.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd',
-        clearKey: { 'd47ebabf7a21430b83a8c4b82d9ef6b1': '54c213b2b5f885f1e0290ee4131d425b' },
-        category: "Movies"
-      },
-	{
-        name: 'HBO Family',
-        logo: 'https://i.imgur.com/WANpEkc.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd',
-        clearKey: { '872910c843294319800d85f9a0940607': 'f79fd895b79c590708cf5e8b5c6263be' },
-        category: "Movies"
-      },
-      {
-        name: 'HBO Signature',
-        logo: 'https://i.imgur.com/Q2ki7HC.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd',
-        clearKey: { 'a06ca6c275744151895762e0346380f5': '559da1b63eec77b5a942018f14d3f56f' },
-        category: "Movies"
-      },
-      {
-        name: 'HBO Hits',
-        logo: 'https://i.imgur.com/iCnfJS0.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd',
-        clearKey: { 'b04ae8017b5b4601a5a0c9060f6d5b7d': 'a8795f3bdb8a4778b7e888ee484cc7a1' },
-        category: "Movies"
-      },
 
-{
-        name: 'Cinemax',
-        logo: 'https://i.imgur.com/r8qzNiy.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd',
-        clearKey: { 'b207c44332844523a3a3b0469e5652d7': 'fe71aea346db08f8c6fbf0592209f955' },
-        category: "Movies"
-      },
 {
         name: 'Hits Now',
         logo: 'https://i.imgur.com/S3pNx8G.png',
