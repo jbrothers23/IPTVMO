@@ -27,18 +27,22 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
      {
-        name: 'TV5',
-        logo: 'https://i.imgur.com/Ddyfzrn.png',
+        name: ' TV5 ',
+        logo: ' https://i.imgur.com/Ddyfzrn.png ',
         type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd',
-        clearKey: {'2615129ef2c846a9bbd43a641c7303ef':'07c7f996b1734ea288641a68e1cfdc4d'},
-        category: "Local"
+        manifestUri: ' https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd ',
+        clearKey: { 'f703e4c8ec9041eeb5028ab4248fa094 ':' 07c7f996b1734ea288641a68e1cfdc4d '},
+        category: " Local "
       },
 
-
-
-
-
+     {
+        name: ' A2Z ',
+        logo: ' https://i.imgur.com/43nZ2rv.png ',
+        type: ' mpegdash ',
+        manifestUri: ' https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_a2z/default/index.mpd ',
+        clearKey: { ' f703e4c8ec9041eeb5028ab4248fa094 ':' c22f2162e176eee6273a5d0b68d19530 ' },
+        category: " Local "
+      },
 
 
 
@@ -59,6 +63,9 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { 'f703e4c8ec9041eeb5028ab4248fa094': 'c22f2162e176eee6273a5d0b68d19530' },
         category: "Local"
       },
+
+
+
       {
         name: 'GMA Pinoy TV23',
         logo: 'https://i.imgur.com/Eo0f51v.png',
