@@ -104,8 +104,14 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Local"
       },
 
-
-
+      {
+        name: 'RPTV',
+        logo: 'https://i.imgur.com/GjQEEvq.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cnn_rptv_prod_hd/default/index.mpd',
+        clearKey: { '1917f4caf2364e6d9b1507326a85ead6': 'a1340a251a5aa63a9b0ea5d9d7f67595' },
+        category: "Local"
+      },
 
 
 
@@ -136,14 +142,6 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
 
-     {
-        name: 'Buko Channel',
-        logo: 'https://i.imgur.com/Wv0K5Yc.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd',
-        clearKey: { 'd273c085f2ab4a248e7bfc375229007d': '7932354c3a84f7fc1b80efa6bcea0615' },
-        category: "Local"
-      },
       {
         name: 'RPTV',
         logo: 'https://i.imgur.com/GjQEEvq.png',
