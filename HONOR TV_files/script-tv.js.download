@@ -59,9 +59,13 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      'category':'Local'
 },
 
-
-
-
+     {
+     'name':'Kapamilya Online',
+     'type':'youtube',
+     'embedUrl':'https://www.youtube.com/embed/live_stream?channel=UCstEtN0pgOmCf02EdXsGChw',
+     'logo':_0x4a4268(0x30e),
+     'category':'Local'
+},
 
 
 {'name':'SOON2OPEN',
