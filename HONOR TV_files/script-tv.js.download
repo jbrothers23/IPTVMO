@@ -53,8 +53,8 @@ clearKey: { '7ef7e913ce85a1131b27036069169a10':'77d98ed71db7524c27875a09a975f9e6
         name: 'PBO',
         logo: 'https://i.imgur.com/buOVATz.png',
         type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd',
-        clearKey: { 'dcbdaaa6662d4188bdf97f9f0ca5e830': '31e752b441bd2972f2b98a4b1bc1c7a1' },
+        manifestUri: 'https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_ott.mpd',
+        clearKey: { '7ef7e913ce85a1131b27036069169a10': '77d98ed71db7524c27875a09a975f9e6' },
         category: "Movies"
       },
      {
