@@ -204,6 +204,26 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
     },
 
+      {
+        name: 'Warner TV',
+        logo: 'https://i.imgur.com/vGEL2Ne.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd',
+        clearKey: { '4503cf86bca3494ab95a77ed913619a0': 'afc9c8f627fb3fb255dee8e3b0fe1d71' },
+        category: "Movies"
+      },
+{
+        name: 'Rock Action',
+        logo: 'https://i.imgur.com/PJZmoyW.png',
+        type: 'mpegdash',
+        manifestUri: 'https://tglmp04.akamaized.net/out/v1/421a3cd3bdcd492f8f4b5efb2363ed2c/manifest.mpd',
+        clearKey: { '2341c2ecd3cf4865881bb0fa1287de8f': 'ad45202e64f66ef36b3f60fac93cc47f' },
+        category: "Movies"
+      },
+
+
+
+
 
 //News
 
@@ -340,22 +360,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { 'fd5d928f5d974ca4983f6e9295dfe410': '3aaa001ddc142fedbb9d5557be43792f' },
         category: "News"
       },
-      {
-        name: 'Warner TV',
-        logo: 'https://i.imgur.com/vGEL2Ne.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd',
-        clearKey: { '4503cf86bca3494ab95a77ed913619a0': 'afc9c8f627fb3fb255dee8e3b0fe1d71' },
-        category: "Movies"
-      },
-{
-        name: 'Rock Action',
-        logo: 'https://i.imgur.com/PJZmoyW.png',
-        type: 'mpegdash',
-        manifestUri: 'https://tglmp04.akamaized.net/out/v1/421a3cd3bdcd492f8f4b5efb2363ed2c/manifest.mpd',
-        clearKey: { '2341c2ecd3cf4865881bb0fa1287de8f': 'ad45202e64f66ef36b3f60fac93cc47f' },
-        category: "Movies"
-      },
+
 {
         name: 'Rock Entertainment',
         logo: 'https://i.imgur.com/DP36vpY.png',
