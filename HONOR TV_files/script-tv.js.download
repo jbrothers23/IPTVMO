@@ -214,7 +214,22 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { 'a2d1f552ff9541558b3296b5a932136b': 'cdd48fa884dc0c3a3f85aeebca13d444' },
         category: "Kids"
       },
-
+    {
+        name: 'DreamWorks Tagalized',
+        logo: 'https://i.imgur.com/fh1Lg7b.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_dreamworktag/default/index.mpd',
+        clearKey: { '564b3b1c781043c19242c66e348699c5': 'd3ad27d7fe1f14fb1a2cd5688549fbab' },
+        category: "Kids"
+      },
+	{
+        name: 'DreamWorks',
+        logo: 'https://i.imgur.com/fh1Lg7b.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_dreamworks_hd1/default/index.mpd',
+        clearKey: { '4ab9645a2a0a47edbd65e8479c2b9669': '8cb209f1828431ce9b50b593d1f44079' },
+        category: "Kids"
+      },
 
 
 
@@ -246,6 +261,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
 
+//hindipakasama
 
 
 
@@ -264,30 +280,8 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 {'name':_0x4a4268(0x284),'logo':_0x4a4268(0x288),'type':'mpegdash','manifestUri':'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd',
 'clearKey':{'96701d297d1241e492d41c397631d857':_0x4a4268(0x2b1)},'category':'Movies'},
 
-	{
-        name: 'Cartoon Network',
-        logo: 'https://i.imgur.com/R1fV2uY.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd',
-        clearKey: { 'a2d1f552ff9541558b3296b5a932136b': 'cdd48fa884dc0c3a3f85aeebca13d444' },
-        category: "Kids"
-      },
-        {
-        name: 'DreamWorks Tagalized',
-        logo: 'https://i.imgur.com/fh1Lg7b.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd',
-        clearKey: { '564b3b1c781043c19242c66e348699c5': 'd3ad27d7fe1f14fb1a2cd5688549fbab' },
-        category: "Kids"
-      },
-	{
-        name: 'DreamWorks',
-        logo: 'https://i.imgur.com/fh1Lg7b.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd',
-        clearKey: { '4ab9645a2a0a47edbd65e8479c2b9669': '8cb209f1828431ce9b50b593d1f44079' },
-        category: "Kids"
-      },
+
+    
 
 {'name':_0x4a4268(0x246),'logo':_0x4a4268(0x2e4),'type':_0x4a4268(0x1da),'manifestUri':_0x4a4268(0x302),'category':_0x4a4268(0x268)},
 
