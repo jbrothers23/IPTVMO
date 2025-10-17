@@ -225,6 +225,31 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
       },
 
+{
+        name: 'Rock Entertainment',
+        logo: 'https://i.imgur.com/DP36vpY.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockentertainment/default/index.mpd',
+        clearKey: { 'e4ee0cf8ca9746f99af402ca6eed8dc7': 'e4ee0cf8ca9746f99af402ca6eed8dc7' },
+        category: "Movies"
+      },
+{
+        name: 'Thrill',
+        logo: 'https://i.imgur.com/Szf7VBM.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd',
+        clearKey: { '928114ffb2394d14b5585258f70ed183': 'a82edc340bc73447bac16cdfed0a4c62' },
+        category: "Movies"
+      },
+      {
+        name: 'Lotus Macau',
+        logo: 'https://i.imgur.com/sKfzEuf.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/lotusmacau_prd.mpd',
+        clearKey: { '60dc692e64ea443a8fb5ac186c865a9b': '01bdbe22d59b2a4504b53adc2f606cc1' },
+        category: "Movies"
+      },
+
 
 	//Sports
 
@@ -267,7 +292,14 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { '4bbdc78024a54662854b412d01fafa16': '6039ec9b213aca913821677a28bd78ae' },
         category: "News"
     },
-
+	{
+        name: 'AXN',
+        logo: 'https://i.imgur.com/Dj6tVaG.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_axn_sd/default/index.mpd',
+        clearKey: { 'fd5d928f5d974ca4983f6e9295dfe410': '3aaa001ddc142fedbb9d5557be43792f' },
+        category: "News"
+     },
 
 
 //Kids
@@ -407,39 +439,9 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
       },
 
 
-{
-        name: 'AXN',
-        logo: 'https://i.imgur.com/Dj6tVaG.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd',
-        clearKey: { 'fd5d928f5d974ca4983f6e9295dfe410': '3aaa001ddc142fedbb9d5557be43792f' },
-        category: "News"
-      },
 
-{
-        name: 'Rock Entertainment',
-        logo: 'https://i.imgur.com/DP36vpY.png',
-        type: 'mpegdash',
-        manifestUri: 'https://tglmp02.akamaized.net/out/v1/621a7089e63144e4be7891cd9bfb10e2/manifest.mpd',
-        clearKey: { '9229814c629b406f8de98d2f23c968a0': '40b9f250455b43b3b2ea6845ab81abca' },
-        category: "Movies"
-      },
-{
-        name: 'Thrill',
-        logo: 'https://i.imgur.com/Szf7VBM.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd',
-        clearKey: { '928114ffb2394d14b5585258f70ed183': 'a82edc340bc73447bac16cdfed0a4c62' },
-        category: "Movies"
-      },
-      {
-        name: 'Lotus Macau',
-        logo: 'https://i.imgur.com/sKfzEuf.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/lotusmacau_prd.mpd',
-        clearKey: { '60dc692e64ea443a8fb5ac186c865a9b': '01bdbe22d59b2a4504b53adc2f606cc1' },
-        category: "Movies"
-      },
+
+
 {
         name: 'IBC13',
         logo: 'https://i.imgur.com/Org4yTu.png',
