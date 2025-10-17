@@ -408,14 +408,9 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { '0f853706412b11edb8780242ac120002': '2157d6529d80a760f60a8b5350dbc4df' },
         category: "Educational and Documentary"
       },
-{
-        name: 'Buko Channel',
-        logo: 'https://i.imgur.com/Wv0K5Yc.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd',
-        clearKey: { 'd273c085f2ab4a248e7bfc375229007d': '7932354c3a84f7fc1b80efa6bcea0615' },
-        category: "Local"
-      },
+
+
+
 {
         name: 'Knowledge Channel',
         logo: 'https://i.imgur.com/UIqEr2y.png',
