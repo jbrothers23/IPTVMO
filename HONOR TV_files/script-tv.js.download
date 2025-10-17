@@ -186,8 +186,23 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
     },
 
+	{
+        name: 'Hits Movies',
+        logo: 'https://i.imgur.com/zzdj40q.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd',
+        clearKey: { 'f56b57b32d7e4b2cb21748c0b56761a7': '3df06a89aa01b32655a77d93e09e266f' },
+        category: "Movies"
+      },
 
-
+    {
+        name: 'Hits',
+        logo: 'https://i.imgur.com/jghDgUJ.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/hits_hd1/default/index.mpd',
+        clearKey: { 'dac605bc197e442c93f4f08595a95100': '975e27ffc1b7949721ee3ccb4b7fd3e5' },
+        category: "Movies"
+    },
 
 
 //News
@@ -214,6 +229,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { 'a2d1f552ff9541558b3296b5a932136b': 'cdd48fa884dc0c3a3f85aeebca13d444' },
         category: "Kids"
       },
+
     {
         name: 'DreamWorks Tagalized',
         logo: 'https://i.imgur.com/fh1Lg7b.png',
@@ -222,6 +238,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { '564b3b1c781043c19242c66e348699c5': 'd3ad27d7fe1f14fb1a2cd5688549fbab' },
         category: "Kids"
       },
+
 	{
         name: 'DreamWorks',
         logo: 'https://i.imgur.com/fh1Lg7b.png',
@@ -231,8 +248,14 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Kids"
       },
 
-
-
+ 	 {
+        name: 'Nickelodeon',
+        logo: 'https://i.imgur.com/tIRSRoR.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_nickelodeon.mpd',
+        clearKey: { '9ce58f37576b416381b6514a809bfd8b': 'f0fbb758cdeeaddfa3eae538856b4d72' },
+        category: "Kids"
+      },
 
 
 
@@ -245,14 +268,6 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
  
-     {
-        name: 'IQIYI',
-        logo: 'https://i.pinimg.com/originals/28/43/e5/2843e5c36e847576f1e86e80f43e5384.jpg',
-        type: 'mpd',
-        manifestUri: 'https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_ott.mpd',
-       clearKey:{ '7ef7e913ce85a1131b27036069169a10' : '77d98ed71db7524c27875a09a975f9e6' },
-        category: "Movies"
-      },
 
 
 
@@ -288,14 +303,15 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 {'name':'Moonbug\x20Kids','logo':_0x4a4268(0x2f4),'type':'mpegdash','manifestUri':_0x4a4268(0x2f7),'clearKey':{'0bf00921bec94a65a124fba1ef52b1cd':_0x4a4268(0x20b)},
 'category':_0x4a4268(0x268)},
 
- 	 {
-        name: 'Nickelodeon',
-        logo: 'https://i.imgur.com/tIRSRoR.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_nickelodeon.mpd',
-        clearKey: { '9ce58f37576b416381b6514a809bfd8b': 'f0fbb758cdeeaddfa3eae538856b4d72' },
-        category: "Kids"
+     {
+        name: 'IQIYI',
+        logo: 'https://i.pinimg.com/originals/28/43/e5/2843e5c36e847576f1e86e80f43e5384.jpg',
+        type: 'mpd',
+        manifestUri: 'https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_ott.mpd',
+       clearKey:{ '7ef7e913ce85a1131b27036069169a10' : '77d98ed71db7524c27875a09a975f9e6' },
+        category: "Movies"
       },
+
 
 	{
         name: 'Nick Jr',
@@ -314,22 +330,8 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { '14439a1b7afc4527bb0ebc51cf11cbc1': '92b0287c7042f271b266cc11ab7541f1' },
         category: "Educational and Documentary"
       },
-        {
-        name: 'Hits',
-        logo: 'https://i.imgur.com/jghDgUJ.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd',
-        clearKey: { 'dac605bc197e442c93f4f08595a95100': '975e27ffc1b7949721ee3ccb4b7fd3e5' },
-        category: "Movies"
-      },
-{
-        name: 'Hits Movies',
-        logo: 'https://i.imgur.com/zzdj40q.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd',
-        clearKey: { 'f56b57b32d7e4b2cb21748c0b56761a7': '3df06a89aa01b32655a77d93e09e266f' },
-        category: "Movies"
-      },
+
+
 {
         name: 'AXN',
         logo: 'https://i.imgur.com/Dj6tVaG.png',
