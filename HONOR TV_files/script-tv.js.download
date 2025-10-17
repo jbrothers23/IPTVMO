@@ -38,13 +38,11 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      {
         name: 'A2Z',
         logo: 'https://i.imgur.com/43nZ2rv.png',
-        type: 'mpegdash ',
+        type: 'mpegdash',
         manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_a2z/default/index.mpd',
         clearKey: {'f703e4c8ec9041eeb5028ab4248fa094':'c22f2162e176eee6273a5d0b68d19530'},
         category: "Local"
       },
-
-
 
 
 
