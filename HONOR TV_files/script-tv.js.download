@@ -235,6 +235,32 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
       },
 
+	{
+        name: 'Celestial Movies Pinoy',
+        logo: 'https://cms.cignal.tv/Upload/Images/Celestial-Logo-2022.jpg',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/celmovie_pinoy_sd/default/index.mpd',
+        clearKey: { '0f8537d8412b11edb8780242ac120002': '2ffd7230416150fd5196fd7ea71c36f3' },
+        category: "Movies"
+     },
+
+	{
+        name: 'CinemaOne',
+        logo: 'https://th.bing.com/th/id/OIP.3wplDtTyzPCr4Yoyg8t_GgHaDC?rs=1&pid=ImgDetMain',
+        type: 'mpegdash',
+        manifestUri: 'https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd',
+        clearKey: { '58d0e56991194043b8fb82feb4db7276': 'd68f41b59649676788889e19fb10d22c' },
+        category: "Movies"
+     },
+
+	{
+        name: 'Cinemo',
+        logo: 'https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no',
+        type: 'mpegdash',
+        manifestUri: 'https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd',
+        clearKey: { 'aa8aebe35ccc4541b7ce6292efcb1bfb': 'aab1df109d22fc5d7e3ec121ddf24e5f' },
+        category: "Movies"
+     },
 
 
 
@@ -497,32 +523,6 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      },
 
 
-	{
-        name: 'Celestial Movies Pinoy',
-        logo: 'https://cms.cignal.tv/Upload/Images/Celestial-Logo-2022.jpg',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/celmovie_pinoy_sd/default/index.mpd',
-        clearKey: { '0f8537d8412b11edb8780242ac120002': '2ffd7230416150fd5196fd7ea71c36f3' },
-        category: "PILIPINAS LIVE"
-     },
-
-	{
-        name: 'CinemaOne',
-        logo: 'https://th.bing.com/th/id/OIP.3wplDtTyzPCr4Yoyg8t_GgHaDC?rs=1&pid=ImgDetMain',
-        type: 'mpegdash',
-        manifestUri: 'https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd',
-        clearKey: { '58d0e56991194043b8fb82feb4db7276': 'd68f41b59649676788889e19fb10d22c' },
-        category: "PILIPINAS LIVE"
-     },
-
-	{
-        name: 'Cinemo',
-        logo: 'https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no',
-        type: 'mpegdash',
-        manifestUri: 'https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd',
-        clearKey: { 'aa8aebe35ccc4541b7ce6292efcb1bfb': 'aab1df109d22fc5d7e3ec121ddf24e5f' },
-        category: "PILIPINAS LIVE"
-     },
 
 
 
