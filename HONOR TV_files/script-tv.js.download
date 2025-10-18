@@ -570,8 +570,22 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "PILIPINAS LIVE"
      },
 
+	{
+        name: 'MPTV',
+        logo: 'https://cms.cignal.tv/Upload/Images/MPTV%20-%20Rev.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_mptv/default/index.mpd',
+        clearKey: { '6aab8f40536f4ea98e7c97b8f3aa7d4e': '139aa5a55ade471faaddacc4f4de8807' },
+        category: "PILIPINAS LIVE"
+     },
 
-
+	{
+        name: 'K-Movies',
+        logo: 'https://th.bing.com/th/id/OIP.uvYKFBubGFR40NtgWh7W8wHaES?rs=1&pid=ImgDetMain',
+        type: 'hls',
+        manifestUri: 'https://7732c5436342497882363a8cd14ceff4.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_NewMovies/playlist.m3u8',
+        category: "PILIPINAS LIVE"
+     },
 
 
 
