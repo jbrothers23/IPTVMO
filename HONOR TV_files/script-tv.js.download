@@ -459,7 +459,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 	 {
         name: 'Disney Channel',
         logo: 'https://th.bing.com/th/id/OIP.ry79quPYFII7hj-ZpuoDAQHaDt?rs=1&pid=ImgDetMain',
-        type: 'mpegdash',
+        type: 'mpd',
         manifestUri: 'https://uselector.cdn.intigral-ott.net/DIS/DIS.isml/manifest.mpd',
 		clearKey: { '72800c62fcf2bfbedd9af27d79ed35d6': 'b6ccb9facb2c1c81ebe4dfaab8a45195' },
         category: "Kids"
