@@ -381,6 +381,15 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 //News
 
 	{
+        name: 'One PH',
+        logo: 'https://th.bing.com/th/id/OIP.uz-f8yhdILIhdUj56NO6YAAAAA?rs=1&pid=ImgDetMain',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/oneph_sd/default/index.mpd',
+        clearKey: { '92834ab4a7e1499b90886c5d49220e46': 'a7108d9a6cfcc1b7939eb111daf09ab3' },
+        category: "News"
+    },
+
+	{
         name: 'True FM TV',
         logo: 'https://th.bing.com/th/id/OIP.mnFsqTyoPfS65QqSTLKHLAHaHa?rs=1&pid=ImgDetMain',
         type: 'mpegdash',
