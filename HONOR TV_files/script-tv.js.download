@@ -381,6 +381,15 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 //News
 
 	{
+        name: 'True FM TV',
+        logo: 'https://th.bing.com/th/id/OIP.mnFsqTyoPfS65QqSTLKHLAHaHa?rs=1&pid=ImgDetMain',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/truefm_tv/default/index.mpd',
+        clearKey: { '0559c95496d44fadb94105b9176c3579': '40d8bb2a46ffd03540e0c6210ece57ce' },
+        category: "News"
+    },
+
+	{
         name: 'ANC',
         logo: 'https://i.imgur.com/Bcu69bU.png',
         type: 'mpegdash',
