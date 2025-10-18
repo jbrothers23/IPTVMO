@@ -191,11 +191,11 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
     },
 
     {
-        name: 'Viva Cinema',
-        logo: 'https://i.imgur.com/51RWtvd.png',
+        name: 'PBO',
+        logo: 'https://i.imgur.com/ZUZIt9s.png',
         type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd',
-        clearKey: { '4503cf86bca3494ab95a77ed913619a0': '3afc9c8f627fb3fb255dee8e3b0fe1d71' },
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/pbo_sd/default/index.mpd',
+        clearKey: { 'dcbdaaa6662d4188bdf97f9f0ca5e830': '31e752b441bd2972f2b98a4b1bc1c7a1' },
         category: "Movies"
     },
 
@@ -297,6 +297,23 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
      },
 
+	{
+        name: 'Hits Now',
+        logo: 'https://i.imgur.com/S3pNx8G.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hitsnow/default/index.mpd',
+        clearKey: { '14439a1b7afc4527bb0ebc51cf11cbc1': '92b0287c7042f271b266cc11ab7541f1' },
+        category: "Movies"
+      },
+
+	{
+        name: 'TVN Movies (Tagalog)',
+        logo: 'https://i.imgur.com/3zLgtdM.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tvnmovie/default/index.mpd',
+        clearKey: { '2e53f8d8a5e94bca8f9a1e16ce67df33': '3471b2464b5c7b033a03bb8307d9fa35' },
+        category: "Movies"
+      },
 
 
 
@@ -466,14 +483,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
 
-	{
-        name: 'Hits Now',
-        logo: 'https://i.imgur.com/S3pNx8G.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hitsnow/default/index.mpd',
-        clearKey: { '14439a1b7afc4527bb0ebc51cf11cbc1': '92b0287c7042f271b266cc11ab7541f1' },
-        category: "Educational and Documentary"
-      },
+
 
 	{
         name: 'History',
