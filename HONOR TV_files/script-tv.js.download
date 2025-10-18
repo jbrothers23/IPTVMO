@@ -478,8 +478,14 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      },
 
 
-
-
+	{
+        name: 'TVUP',
+        logo: 'https://i.imgur.com/3L0yn52.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/tvup_prd/default/index.mpd',
+        clearKey: { '83e813ccd4ca4837afd611037af02f63': 'a97c515dbcb5dcbc432bbd09d15afd41' },
+        category: "PILIPINAS LIVE"
+     },
 
 
 
