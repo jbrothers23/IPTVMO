@@ -38,13 +38,13 @@ document.write( unescape( '%3C%21%44%4F%43%54%59%50%45%20%68%74%6D%6C%3E%0A%3C%6
   <script>function isInViewport(e){const t=e.getBoundingClientRect();return t.top>=0&&t.left>=0&&t.bottom<=(window.innerHeight||document.documentElement.clientHeight)&&t.right<=(window.innerWidth||document.documentElement.clientWidth)}function loadImages(){document.querySelectorAll(".defer-image").forEach(e=>{if(isInViewport(e)){const t=e.getAttribute("data-src");if(t){const n=new Image;n.src=t,n.onload=()=>{e.setAttribute("src",t),e.classList.remove("defer-image")}}}})}window.addEventListener("scroll",loadImages),window.addEventListener("resize",loadImages),loadImages();</script>
 <nav class="bottom-nav">
   <a href="https://rjtv.netlify.app/index.html" class="nav-item">
-    <i class="fas fa-home"></i> Home
+    <i class="fa fa-home"></i> Home
   </a>
   <a href="https://rjtv.netlify.app/iptv.html" class="nav-item">
-    <i class="fas fa-broadcast-tower"></i> Live TV
+    <i class="fa fa-broadcast-tower"></i> Live TV
   </a>
   <a href="https://rjtv.netlify.app/iptv.html" class="nav-item">
-    <i class="fas fa-film"></i> Movies
+    <i class="fa fa-film"></i> Movies
   </a>
 </nav>
 
