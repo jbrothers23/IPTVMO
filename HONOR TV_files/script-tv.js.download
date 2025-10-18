@@ -216,31 +216,22 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { '4503cf86bca3494ab95a77ed913619a0': 'afc9c8f627fb3fb255dee8e3b0fe1d71' },
         category: "Movies"
       },
-{
-        name: 'Rock Action',
-        logo: 'https://i.imgur.com/PJZmoyW.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockextreme/default/index.mpd',
-        clearKey: { '0f852fb8412b11edb8780242ac120002': '4cbc004d8c444f9f996db42059ce8178' },
-        category: "Movies"
-      },
 
-{
-        name: 'Rock Entertainment',
-        logo: 'https://i.imgur.com/DP36vpY.png',
+	{
+        name: 'AXN',
+        logo: 'https://i.imgur.com/Dj6tVaG.png',
         type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockentertainment/default/index.mpd',
-        clearKey: { 'e4ee0cf8ca9746f99af402ca6eed8dc7': 'e4ee0cf8ca9746f99af402ca6eed8dc7' },
-        category: "Movies"
-      },
-{
-        name: 'Thrill',
-        logo: 'https://i.imgur.com/Szf7VBM.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd',
-        clearKey: { '928114ffb2394d14b5585258f70ed183': 'a82edc340bc73447bac16cdfed0a4c62' },
-        category: "Movies"
-      },
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_axn_sd/default/index.mpd',
+        clearKey: { 'fd5d928f5d974ca4983f6e9295dfe410': '3aaa001ddc142fedbb9d5557be43792f' },
+        category: "News"
+     },
+
+
+
+
+
+
+
       {
         name: 'Lotus Macau',
         logo: 'https://i.imgur.com/sKfzEuf.png',
@@ -249,6 +240,40 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { '60dc692e64ea443a8fb5ac186c865a9b': '01bdbe22d59b2a4504b53adc2f606cc1' },
         category: "Movies"
       },
+
+		{
+        name: 'Rock Action',
+        logo: 'https://i.imgur.com/PJZmoyW.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockextreme/default/index.mpd',
+        clearKey: { '0f852fb8412b11edb8780242ac120002': '4cbc004d8c444f9f996db42059ce8178' },
+        category: "Movies"
+     	 },
+
+		{
+        name: 'Rock Entertainment',
+        logo: 'https://i.imgur.com/DP36vpY.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockentertainment/default/index.mpd',
+        clearKey: { 'e4ee0cf8ca9746f99af402ca6eed8dc7': 'e4ee0cf8ca9746f99af402ca6eed8dc7' },
+        category: "Movies"
+     	 },
+			{
+        name: 'Thrill',
+        logo: 'https://i.imgur.com/Szf7VBM.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd',
+        clearKey: { '928114ffb2394d14b5585258f70ed183': 'a82edc340bc73447bac16cdfed0a4c62' },
+        category: "Movies"
+    	  },
+     	 {
+        name: 'Lotus Macau',
+        logo: 'https://i.imgur.com/sKfzEuf.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/lotusmacau_prd.mpd',
+        clearKey: { '60dc692e64ea443a8fb5ac186c865a9b': '01bdbe22d59b2a4504b53adc2f606cc1' },
+        category: "Movies"
+    	  },
 
 
 	//Sports
@@ -294,20 +319,29 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
     },
 
 	{
-        name: 'AXN',
-        logo: 'https://i.imgur.com/Dj6tVaG.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_axn_sd/default/index.mpd',
-        clearKey: { 'fd5d928f5d974ca4983f6e9295dfe410': '3aaa001ddc142fedbb9d5557be43792f' },
-        category: "News"
-     },
-
-	{
         name: 'ABC Australia',
         logo: 'https://i.imgur.com/480rU5C.png',
         type: 'mpegdash',
         manifestUri: 'https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_abc_aus.mpd',
         clearKey: { '389497f9f8584a57b234e27e430e04b7': '3b85594c7f88604adf004e45c03511c0' },
+        category: "News"
+     },
+
+	{
+        name: 'Al Jazeera',
+        logo: 'https://th.bing.com/th/id/OIP.EeF7fuBh0ASAdfYFigegbgHaE8?rs=1&pid=ImgDetMain',
+        type: 'hls',
+        manifestUri: 'https://live-hls-web-aje.getaj.net/AJE/index.m3u8',
+        clearKey: { '389497f9f8584a57b234e27e430e04b7': '3b85594c7f88604adf004e45c03511c0' },
+        category: "News"
+     },
+
+	{
+        name: 'BBCWORLD News',
+        logo: 'https://th.bing.com/th/id/OIP.Dt6zbSEb8BztEMb1C93QHQHaHk?rs=1&pid=ImgDetMain',
+        type: 'hls',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/bbcworld_news_sd/default/index.mpd',
+        clearKey: { 'f59650be475e4c34a844d4e2062f71f3': '119639e849ddee96c4cec2f2b6b09b40' },
         category: "News"
      },
 
@@ -408,6 +442,15 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { 'a7724b7ca2604c33bb2e963a0319968a': '6f97e3e2eb2bade626e0281ec01d3675' },
         category: "Educational and Documentary"
       },
+
+	{
+        name: 'BBC Earth',
+        logo: 'https://i.imgur.com/cvYi2Io.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_bbcearth_hd1/default/index.mpd',
+        clearKey: { '34ce95b60c424e169619816c5181aded': '0e2a2117d705613542618f58bf26fc8e' },
+        category: "Educational and Documentary"
+     },
 
 	{
         name: 'Animal Planet',
