@@ -458,11 +458,24 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      },
 
 
+	{
+        name: 'VIVACINEMA',
+        logo: 'https://i.imgur.com/z8lWIX6.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd',
+        clearKey: { '07aa813bf2c147748046edd930f7736e': '3bd6688b8b44e96201e753224adfc8fb' },
+        category: "PILIPINAS LIVE"
+     },
 
 
-
-
-
+	{
+        name: 'UAAP Varsity',
+        logo: 'https://i.imgur.com/pt2hGDc.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_uaap_cplay_sd/default/index.mpd',
+        clearKey: { '95588338ee37423e99358a6d431324b9': '6e0f50a12f36599a55073868f814e81e' },
+        category: "PILIPINAS LIVE"
+     },
 
 
 
