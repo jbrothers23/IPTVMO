@@ -117,6 +117,24 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Local"
       },
 
+	{
+        name: 'Jeepney TV',
+        logo: 'https://en.wikipedia.org/wiki/Jeepney_TV#/media/File:Jeepney_TV_Logo_2015.svg',
+        type: 'mpegdash',
+        manifestUri: 'https://abslive.akamaized.net/dash/live/2028025/jeepneytv/manifest.mpd',
+        clearKey: { '90ea4079e02f418db7b170e8763e65f0': '1bfe2d166e31d03eee86ee568bd6c272' },
+        category: "Local"
+     },
+
+	{
+        name: 'Kapamilya Channel',
+        logo: 'https://th.bing.com/th/id/OIP.ZzYB03x8FwMJFXEoCw4BcQHaEK?rs=1&pid=ImgDetMain',
+        type: 'mpegdash',
+        manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd',
+        clearKey: { 'bd17afb5dc9648a39be79ee3634dd4b8': '3ecf305d54a7729299b93a3d69c02ea5' },
+        category: "Local"
+     },
+
 	  {
         name: 'HallyPop',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/GMA_Hallypop_logo.png',
@@ -262,7 +280,22 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
      },
 
+	{
+        name: 'Jungo Pinoy tv',
+        logo: 'https://dito.ph/hubfs/Dito_July2021/Ott%20Pages/Jungo-img/Jungo-logo.png',
+        type: 'hls',
+        manifestUri: 'https://jungotvstream.chanall.tv/jungotv/jungopinoytv/stream.m3u8',
+        category: "Movies"
+     },
 
+	{
+        name: 'VIVACINEMA',
+        logo: 'https://i.imgur.com/z8lWIX6.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd',
+        clearKey: { '07aa813bf2c147748046edd930f7736e': '3bd6688b8b44e96201e753224adfc8fb' },
+        category: "Movies"
+     },
 
 
 
@@ -272,6 +305,24 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
 	//Sports
+
+	{
+        name: 'NBA TV Philippines',
+        logo: 'https://cms.cignal.tv/Upload/Images/NBA-TV-Philippines.jpg',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cgnl_nba/default/index.mpd',
+        clearKey: { 'c5e51f41ceac48709d0bdcd9c13a4d88': '20b91609967e472c27040716ef6a8b9a' },
+        category: "Sports"
+     },
+
+	{
+        name: 'PBA Rush',
+        logo: 'https://th.bing.com/th/id/OIP.dDzYufwVTWroitJQy9pfXQAAAA?rs=1&pid=ImgDetMain',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_pbarush_hd1/default/index.mpd',
+        clearKey: { '76dc29dd87a244aeab9e8b7c5da1e5f3': '95b2f2ffd4e14073620506213b62ac82' },
+        category: "Sports"
+     },
 
 	{
         name: 'Tap Sports',
@@ -448,31 +499,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 //transfer
 
 
-	{
-        name: 'Jeepney TV',
-        logo: 'https://en.wikipedia.org/wiki/Jeepney_TV#/media/File:Jeepney_TV_Logo_2015.svg',
-        type: 'mpegdash',
-        manifestUri: 'https://abslive.akamaized.net/dash/live/2028025/jeepneytv/manifest.mpd',
-        clearKey: { '90ea4079e02f418db7b170e8763e65f0': '1bfe2d166e31d03eee86ee568bd6c272' },
-        category: "PILIPINAS LIVE"
-     },
 
-	{
-        name: 'Jungo Pinoy tv',
-        logo: 'https://dito.ph/hubfs/Dito_July2021/Ott%20Pages/Jungo-img/Jungo-logo.png',
-        type: 'hls',
-        manifestUri: 'https://jungotvstream.chanall.tv/jungotv/jungopinoytv/stream.m3u8',
-        category: "PILIPINAS LIVE"
-     },
-
-	{
-        name: 'Kapamilya Channel',
-        logo: 'https://th.bing.com/th/id/OIP.ZzYB03x8FwMJFXEoCw4BcQHaEK?rs=1&pid=ImgDetMain',
-        type: 'mpegdash',
-        manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd',
-        clearKey: { 'bd17afb5dc9648a39be79ee3634dd4b8': '3ecf305d54a7729299b93a3d69c02ea5' },
-        category: "PILIPINAS LIVE"
-     },
 
 	{
         name: 'KBS World',
@@ -484,14 +511,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      },
 
 
-	{
-        name: 'VIVACINEMA',
-        logo: 'https://i.imgur.com/z8lWIX6.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd',
-        clearKey: { '07aa813bf2c147748046edd930f7736e': '3bd6688b8b44e96201e753224adfc8fb' },
-        category: "PILIPINAS LIVE"
-     },
+
 
 
 	{
@@ -522,23 +542,6 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "PILIPINAS LIVE"
      },
 
-	{
-        name: 'NBA TV Philippines',
-        logo: 'https://cms.cignal.tv/Upload/Images/NBA-TV-Philippines.jpg',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cgnl_nba/default/index.mpd',
-        clearKey: { 'c5e51f41ceac48709d0bdcd9c13a4d88': '20b91609967e472c27040716ef6a8b9a' },
-        category: "PILIPINAS LIVE"
-     },
-
-	{
-        name: 'PBA Rush',
-        logo: 'https://th.bing.com/th/id/OIP.dDzYufwVTWroitJQy9pfXQAAAA?rs=1&pid=ImgDetMain',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_pbarush_hd1/default/index.mpd',
-        clearKey: { '76dc29dd87a244aeab9e8b7c5da1e5f3': '95b2f2ffd4e14073620506213b62ac82' },
-        category: "PILIPINAS LIVE"
-     },
 
 
 
