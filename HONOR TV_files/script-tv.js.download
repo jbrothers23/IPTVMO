@@ -424,7 +424,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 	{
         name: 'Jeepney TV',
-        logo: 'https://th.bing.com/th/id/OIP.PNeE4yWz4_Tp1O-dCdY_xAHaEP?rs=1&pid=ImgDetMain',
+        logo: 'https://en.wikipedia.org/wiki/Jeepney_TV#/media/File:Jeepney_TV_Logo_2015.svg',
         type: 'mpegdash',
         manifestUri: 'https://abslive.akamaized.net/dash/live/2028025/jeepneytv/manifest.mpd',
         clearKey: { '90ea4079e02f418db7b170e8763e65f0': '1bfe2d166e31d03eee86ee568bd6c272' },
