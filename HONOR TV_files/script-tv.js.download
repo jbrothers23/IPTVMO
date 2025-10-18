@@ -522,8 +522,23 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "PILIPINAS LIVE"
      },
 
+	{
+        name: 'NBA TV Philippines',
+        logo: 'https://cms.cignal.tv/Upload/Images/NBA-TV-Philippines.jpg',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cgnl_nba/default/index.mpd',
+        clearKey: { 'c5e51f41ceac48709d0bdcd9c13a4d88: '20b91609967e472c27040716ef6a8b9a' },
+        category: "PILIPINAS LIVE"
+     },
 
-
+	{
+        name: 'PBA Rush',
+        logo: 'https://th.bing.com/th/id/OIP.dDzYufwVTWroitJQy9pfXQAAAA?rs=1&pid=ImgDetMain',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_pbarush_hd1/default/index.mpd',
+        clearKey: { '76dc29dd87a244aeab9e8b7c5da1e5f3': '95b2f2ffd4e14073620506213b62ac82' },
+        category: "PILIPINAS LIVE"
+     },
 
 
 
