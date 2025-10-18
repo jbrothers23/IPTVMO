@@ -226,6 +226,20 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
      },
 
+	{
+        name: 'Rock Action',
+        logo: 'https://i.imgur.com/PJZmoyW.png',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockextreme/default/index.mpd',
+        clearKey: { '0f852fb8412b11edb8780242ac120002': '4cbc004d8c444f9f996db42059ce8178' },
+        category: "Movies"
+      },
+
+
+
+
+
+
 
 	{
         name: 'Blast Movies',
@@ -236,10 +250,6 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
      },
 
-
-
-
-
       {
         name: 'Lotus Macau',
         logo: 'https://i.imgur.com/sKfzEuf.png',
@@ -249,14 +259,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Movies"
       },
 
-		{
-        name: 'Rock Action',
-        logo: 'https://i.imgur.com/PJZmoyW.png',
-        type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockextreme/default/index.mpd',
-        clearKey: { '0f852fb8412b11edb8780242ac120002': '4cbc004d8c444f9f996db42059ce8178' },
-        category: "Movies"
-     	 },
+
 
 		{
         name: 'Rock Entertainment',
