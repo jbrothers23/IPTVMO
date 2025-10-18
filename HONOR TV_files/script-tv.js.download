@@ -360,6 +360,15 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Kids"
       },
 
+	 {
+        name: 'Anime X Hidive',
+        logo: 'https://www.tablotv.com/wp-content/uploads/2023/12/AnimeXHIDIVE_official-768x499.png',
+        type: 'hls',
+        manifestUri: 'https://amc-anime-x-hidive-1-us.tablo.wurl.tv/playlist.m3u8',
+        category: "Kids"
+      },
+
+
 
 //Educational and Documentary
 
