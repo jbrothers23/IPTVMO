@@ -527,7 +527,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         logo: 'https://cms.cignal.tv/Upload/Images/NBA-TV-Philippines.jpg',
         type: 'mpegdash',
         manifestUri: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cgnl_nba/default/index.mpd',
-        clearKey: { 'c5e51f41ceac48709d0bdcd9c13a4d88: '20b91609967e472c27040716ef6a8b9a' },
+        clearKey: { 'c5e51f41ceac48709d0bdcd9c13a4d88': '20b91609967e472c27040716ef6a8b9a' },
         category: "PILIPINAS LIVE"
      },
 
