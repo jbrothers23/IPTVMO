@@ -386,13 +386,6 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "Sports"
       },
 
-	{
-        name: 'BILLIARD TV',
-        logo: 'https://th.bing.com/th/id/OIP.JKBoiu3cX_PVMSwZLYFxCAHaHa?rs=1&pid=ImgDetMain',
-        type: 'hls',
-        manifestUri: 'https://1b29dd71cd5e4191a3eb26afff631ed3.mediatailor.us-west-2.amazonaws.com/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SportsTribal-BilliardTV/BILLIARDTV_SCTE.m3u8',
-        category: "Sports"
-      },
 
 
 
@@ -452,6 +445,14 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "News"
      },
 
+	{
+        name: 'Teleradyo',
+        logo: 'https://th.bing.com/th/id/OIP.VFN5ge6hBzP5uudSV5giGwAAAA?rs=1&pid=ImgDetMain',
+        type: 'mpegdash',
+        manifestUri: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbnono/index.mpd',
+        clearKey: { '47c093e0c9fd4f80839a0337da3dd876':'50547394045b3d047dc7d92f57b5fb33' },
+        category: "News"
+     },
 
 
 
