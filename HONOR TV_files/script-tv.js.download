@@ -686,13 +686,18 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         name: 'Cartoonito HD',
         logo: 'https://i.ibb.co/N2WkpBbJ/Gemini-Generated-Image-dwpwypdwpwypdwpw.png',
         type: 'hls',
-        manifestUri: 'https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8',
+        manifestUri: 'https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8',
         category: "PILIPINAS LIVE"
      },
 
 
-
-
+	{
+        name: 'Cartoonito',
+        logo: 'https://i.ibb.co/N2WkpBbJ/Gemini-Generated-Image-dwpwypdwpwypdwpw.png',
+        type: 'hls',
+        manifestUri: 'https://ythls.armelin.one/channel/UCKL5hAuzgFQsyrsQKgU0Qng.m3u8',
+        category: "PILIPINAS LIVE"
+     },
 
 
 
