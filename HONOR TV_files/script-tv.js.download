@@ -692,15 +692,12 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 
 
 	{
-        name: 'Cartoonito',
+        name: '24 Hour Free Movies',
         logo: 'https://i.ibb.co/N2WkpBbJ/Gemini-Generated-Image-dwpwypdwpwypdwpw.png',
         type: 'hls',
-        manifestUri: 'https://ythls.armelin.one/channel/UCKL5hAuzgFQsyrsQKgU0Qng.m3u8',
+        manifestUri: 'https://d1b5mlajbmvkjv.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-DistroTV/145.m3u8',
         category: "PILIPINAS LIVE"
      },
-
-
-
 
 
 
