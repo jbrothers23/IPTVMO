@@ -638,10 +638,21 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         category: "PILIPINAS LIVE"
      },
 
+	{
+        name: 'Ani-One',
+        logo: 'https://i.ibb.co/Rpj2zNY7/1.png',
+        type: 'hls',
+        manifestUri: 'https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/playlist/amg19223-amg19223c9-amgplt0019/playlist.m3u8',
+        category: "PILIPINAS LIVE"
+     },
 
-
-
-
+	{
+        name: 'Aniplus',
+        logo: 'https://i.ibb.co/N2WkpBbJ/Gemini-Generated-Image-dwpwypdwpwypdwpw.png',
+        type: 'hls',
+        manifestUri: 'https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8',
+        category: "PILIPINAS LIVE"
+     },
 
 
 
