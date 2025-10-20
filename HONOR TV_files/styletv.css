@@ -239,3 +239,34 @@ CSS
 .nav-item:hover i {
   transform: scale(5.4); /* Enlarge the icon */
 }
+
+
+[class~="ott-player"] {
+  width: 100%;
+}
+[class~="channel-ott"] li {
+  padding-right: 7.5pt;
+}
+[class~="ott-player"] {
+  height: 100%;
+}
+[class~="ott-player"] {
+  position: absolute;
+}
+[class~="ott-player"] {
+  top: 50%;
+}
+[class~="channel-ott"] li {
+  padding-top: 7.5pt;
+}
+[class~="channel-ott"] li {
+  cursor: pointer;
+}
+[class~="ott-player"] {
+  left: 50%;
+}
+[class~="ott-player"] {
+  transform: translate(-50%, -50%);
+}
+
+
