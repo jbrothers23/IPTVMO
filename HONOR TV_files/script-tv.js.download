@@ -703,7 +703,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
 	{
         name: 'try',
         logo: 'https://i.ibb.co/N2WkpBbJ/Gemini-Generated-Image-dwpwypdwpwypdwpw.png',
-        type: 'hls',
+        type: 'mpegdash',
         manifestUri: 'https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016d055f43ff37a5/manifest.mpd',
 		clearKey: { 'AAAAOHBzc2gAAAAA7e': 'LqXnWSs6jyCfc1R0h7QAAABgSEFhmMk9jWE9YYWppVW1lNjBI88aJmwY' },
         category: "PILIPINAS LIVE"
