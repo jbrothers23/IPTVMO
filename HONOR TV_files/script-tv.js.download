@@ -45,6 +45,15 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
       },
 
 
+     {
+        name: '&Flix',
+        logo: 'https://ts1.mm.bing.net/th?id=OIP.FlPpt1NoTPALgSMM8CwFgAHaHa&pid=15.1',
+        type: 'hls',
+        manifestUri: 'https://edge3-moblive.yuppcdn.net/drm/smil:nflixdrm.smil/chunklist_b996000.m3u8',
+        clearKey: {'f703e4c8ec9041eeb5028ab4248fa094':'c22f2162e176eee6273a5d0b68d19530'},
+        category: "Local"
+      },
+
 
 
 
