@@ -49,7 +49,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         name: 'GTV',
         logo: 'https://contents.pep.ph/images2/images2/2021/02/10/gtv-2-1612942731.jpg',
         type: 'mpegdash',
-        manifestUri: 'https://converse.nathcreqtives.com/1143/manifest.mpd?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJHYW1heXBvdG90b3kiLCJpYXQiOjE3Njg0NDQ0NTgsImV4cCI6MTc2OTMwODQ1OCwiYWNjb3VudEV4cGlyZWQiOmZhbHNlLCJhY2NvdW50RXhwaXJlc0F0IjoxNzY5MzA4NDU4fQ.9dl-698RxGuhJMNNmVTuCUtU5aN-b8TpLL9aXXfaK_I',
+        manifestUri: 'https://converse.nathcreqtives.com/1143/manifest.mpd?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJHYW1heXBvdG90b3kiLCJpYXQiOjE3NjkxNjM3MTcsImV4cCI6MTc3MDAyNzcxNywiYWNjb3VudEV4cGlyZWQiOmZhbHNlLCJhY2NvdW50RXhwaXJlc0F0IjoxNzcwMDI3NzE3fQ.K1-8AV1nHuKVEUe8kE0SqLfLrqk1n4Ng0WBkX18zGI4',
         clearKey: {'31363232353335323435353337353331':'35416a68643065697575493337566135'},
         category: "Local"
       },
