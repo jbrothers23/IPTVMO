@@ -74,7 +74,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         name: 'ALLTV',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/ALLTV_Logo_2023.svg/250px-ALLTV_Logo_2023.svg.png',
         type: 'mpegdash',
-        manifestUri: 'https://converse.nathcreqtives.com/1179/manifest.mpd?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJHYW1heXBvdG90b3kiLCJpYXQiOjE3Njg0NDQ0NTgsImV4cCI6MTc2OTMwODQ1OCwiYWNjb3VudEV4cGlyZWQiOmZhbHNlLCJhY2NvdW50RXhwaXJlc0F0IjoxNzY5MzA4NDU4fQ.9dl-698RxGuhJMNNmVTuCUtU5aN-b8TpLL9aXXfaK_I',
+        manifestUri: 'https://converse.nathcreqtives.com/1179/manifest.mpd?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJHYW1heXBvdG90b3kiLCJpYXQiOjE3NjkxNjM3MTcsImV4cCI6MTc3MDAyNzcxNywiYWNjb3VudEV4cGlyZWQiOmZhbHNlLCJhY2NvdW50RXhwaXJlc0F0IjoxNzcwMDI3NzE3fQ.K1-8AV1nHuKVEUe8kE0SqLfLrqk1n4Ng0WBkX18zGI4',
         clearKey: {'31363233323238353336303333363036':'367662564c69425947353948374f4553'},
         category: "Local"
       },
